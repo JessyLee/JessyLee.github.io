@@ -7,7 +7,7 @@ categories: algorithm
 * TOC
 {:toc}
 
-这是[上一篇][上一篇]的续作，对于这个算法，其中可以同时进行的部分有
+这是[上一篇][上一篇][下一篇]的续作，对于这个算法，其中可以同时进行的部分有
 1. 拆分后对每一个块的排序可以同时进行
 2. 合并时的不同范围之间可以同时进行，例如拆分为10个小块，那么1-5小块的合并跟6-10小块的合并过程可以同时进行
 3. 合并的不同阶段之间不可以同时进行，因为不同阶段之间有先后顺序
@@ -84,6 +84,7 @@ while (true) {
  [完整代码][完整代码]  
     
 [上一篇]:https://bit-ranger.github.io/blog/algorithm/large-file-diff/
+[下一篇]:https://www.baidu.com
 [完整代码]:https://github.com/bit-ranger/architecture/blob/d9083d2fb71763557e6d4eb6875f9c001fd41596/core/src/main/java/com/rainyalley/architecture/core/arithmetic/sort/FileSorter.java
 
 # 测试
